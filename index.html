@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fala Wewe</title>
+  <!-- to link css file -->
+	<link rel="stylesheet" type="text/css" href="fw.css">
+  
+</head>
+
+<body>
+<!--Java Button to take user to top of page when clicked -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+<!-- Header of the html-->  
+  <div class="header">
+    <div class="topnav">
+      <!--Logo -->
+      <div class="rlnk">
+      <p class="logo">
+        <img src="logos/logo1.png">
+      </p>
+      <!-- Link  to in page items -->
+   
+      <a class="rightlink" href="index.html#contactpg" onclick="btnclick()">Contact</a>
+      <a class="rightlink" href="index.html#aboutpg" onclick="btnclick()">About Us</a>
+        <a class="rightlink" href="index.html#shoppg" onclick="btnclick()">Shop</a>
+        <a class="rightlink" href="index.html#homepg" onclick="btnclick()">Home</a>
+      </div>
+    </div>
+  </div>
+  
+
+
+<!--the home page of the wesite -->
+  <div class="home" id="homepg">
+    <sup>FALA WEWE.</sup>
+    <p>  
+    Embrace the essence,
+    <br> 
+    Wear the culture.
+    <br>
+    <br>
+   Authentic African Apparel.</p>
+   <img src="Ptrn/mama.png">
+   <!--to clear float after image -->
+   <p class="clearfix"></p>
+   <br>
+  </div>
+<!-- End of home page -->
+
+
+
+<!-- the shop page of the website -->
+<!-- use of 4 coulmns layout to showcase each product and 3 rows for three types of product  -->
+  <div class="shop" id="shoppg">
+    <!-- using div to make multiple "boxes"  to allign and foloow clients design criteria-->
+    <div class="content">
+      <div class="pgtitle"><h1>SHIRTS.</h1></div>
+        <div class="row">
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shirt1.png">
+              <h1>Full Masai Print Tee</h1>
+              <h2>Ksh 2500</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shirt2.png">
+              <h1>Border Masai Print Tee</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shirt3.png">
+              <h1>Red African Tee</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+
+              <img src="items/shirt4.png">
+              <h1>Simba Kenya Tee</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div> 
+        </div>
+    </div>
+    <div class="content">
+      <div class="pgtitle"><h1>SHOES.</h1></div>
+        <div class="row">
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shoe1.png">
+              <h1>Blue Traditional Print </h1>
+              <h2>Ksh 2500</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shoe2.png">
+              <h1>Red Masika Print</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/shoe3.png">
+              <h1>Blue Crazy Print</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+
+              <img src="items/shoe4.png">
+              <h1>Leather and Bee Print</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div> 
+        </div>
+    </div>
+    <div class="content">
+      <div class="pgtitle"><h1>HOODIES.</h1></div>
+        <div class="row">
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/hoodie1.png">
+              <h1>Giraffe Hoodie</h1>
+              <h2>Ksh 3500</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/hoodie2.png">
+              <h1>Lion Hoodie</h1>
+              <h2>Ksh 2500</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+              <img src="items/hoodie3.png">
+              <h1>Africa Hoodie</h1>
+              <h2>Ksh 2000</h2>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+            <a href="productpg.html">
+            <div class="box">
+
+              <img src="items/hoodie4.png">
+              <h1>Kenya Hoodie</h1>
+              <h2>Ksh 1500</h2>
+            </div>
+          </a>
+          </div> 
+        </div>
+    </div>   
+ </div> 
+<!-- End of shop-->
+
+
+
+
+<!-- About us page to showcase history and vision  -->
+<!-- Use of grid layout to show information  -->
+  <div class="aboutus" id="aboutpg" id="aboutpg">
+    <!-- use of divs as "boxes" to fulfill design criteria -->
+    <div class="content">
+        <div class="pgtitle" ><h1>History.</h1></div>
+        <div class="grid-container">
+          
+          
+          <div class="grid-item"><img src="./prop/dosi.png" alt="pic for aunty sewing" class="altpic2"></div>  
+          <div class="grid-item">
+            <p class="pabtus">
+              FALAWEWE, where tradition meets fashion in the vibrant world of 
+              authentic African apparel.Our journey began with a passion for celebrating the rich cultural 
+              heritage of Africa through its diverse and stunning clothing traditions. Inspired by the beauty and
+              significance of African textiles, we embarked on a mission to share these treasures with the world. 
+              Our founders, Jeet and Harin, were deeply moved by the stories woven into every fabric,the intricate patterns
+              that spoke of centuries-old traditions, and the vibrant colors that symbolized the vitality of
+              African cultures. Driven by a desire to preserve and promote these traditions,
+              falawewe was born.
+            </p>
+          </div>
+        </div>
+        
+        <div class="pabtus"><h1>Vision.</h1></div>
+        <div class="grid-container">
+          
+          <div class="grid-item">
+            <p class="pabtus">
+              In the future, falawewe aims to be the global destination for authentic African apparel,
+              fostering cultural appreciation and economic empowerment. We envision expanding our reach while
+              maintaining our commitment to sustainability and ethical practices. Through innovative collaborations
+              and community initiatives, we aspire to amplify African voices, inspire fashion trends, and continue
+              enriching lives with the timeless beauty of African heritage.
+            </p>
+            </div>
+          <div class="grid-item"><img src="./prop/shangazi.png" alt="pictur of models" class="altpic2"></div>
+          
+        </div>
+        
+    </div>
+  </div> 
+<!-- End of about us Page-->
+  
+
+<!-- Contact Us page -->
+<!-- use of 2 colounm layout to display info  -->
+  <div class="contact" id="contactpg">
+   <div class="content">
+    <!-- to display form on th eleft side to contact us "Javascript of run form " -->
+    <div class="pgtitle" ><h1>Contact Us.</h1></div>
+     <div class="row">
+          <div class="column2">
+            <div class="box2">
+              <h1>Have a question? Special request or want to collaborate with us? contact us via: <br>
+
+              Email : Fala.wewe@gmail.com<br>
+              Phone : +254 726 223 220<br>
+              or hit us up thru this form
+              </h1>
+              <form id="contactForm" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="6" cols="50"></textarea><br><br><br>
+                
+                <input type="reset" value="Reset" class="button1">
+                <input type="submit" class="button1" value="Submit">
+                
+                
+            </form>
+            </div>
+          </div>
+          <!-- to display shop loacton and image -->
+          <div class="column2">
+            <div class="box22">
+              <h1>Find Us @</h1>
+              <img src="prop/shop.jpeg" class="shopimg">
+              <h2>NAIROBI</h2>
+              <h2>T Mall shop number 69</h2>
+            </div>
+          </div>
+      </div>
+
+   </div>
+  </div> <!--  End of contact Page-->
+
+</body>
+
+
+
+<footer>
+
+<!-- Footer of the website -->
+  <div class="footer">  
+
+      <h3>
+      LINKS
+     </h4>
+     <!-- links to other pages -->
+     <p>.  <a href="sc.html#scpg" target="_blank" >SIZE CHART</a>  .  <a href="pp.html#pppg" target="_blank"> PRIVACY POLICY</a>  .  <a href="tac.html#tacpg" target="_blank" > TERMS AND CONDITIONS</a>  .</p>
+     <!-- links to socials  -->
+     <a href="https://www.whatsapp.com/"> <img src="logos/whatsapp.png" class="flogo"></a>
+     <a href="https://www.facebook.com/profile.php?id=61559105401019"> <img src="logos/facebook.png" class="flogo"></a>
+     <a href="https://www.instagram.com/fwewe30/"> <img src="logos/insta.png" class="flogo"></a>
+
+     <br><p>Copyrightjeetyo&harin.co.ke</p>
+     <br>     
+  </div>
+  <!-- to integrate java script in our page -->
+  <script src="./falawewe.js"></script> 
+
+</footer>
+</html>
