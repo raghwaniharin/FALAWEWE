@@ -1,3 +1,12 @@
+
+CLick on this link to open the website directly
+
+https://falawewebyjeetyoandharin.on.drv.tw/www.falawewe.blog/
+
+
+
+
+
 # FALAWEWE
 Authentic African Apparel
 
